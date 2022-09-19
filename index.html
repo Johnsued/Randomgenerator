@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div classs="row">
+        <div class="col-2"></div>
+        <div class="col-8" align="center">
+            <h1>JavaScript Random Number Generator</h1>
+            <div class="myform">
+                I will generate a random integer between<br><br><input type="number" id="min_value"
+                    placeholder="Min value"><br>
+                <br>and<br><br>
+                <input type="number" id="max_value" placeholder="Max value"><br>
+                <br><br>
+                <button id="myBut" onclick="generate()" onmousedown="sound.play()">Generate</button><br><br>
+                <div class="green" id="output"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
