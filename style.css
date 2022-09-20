@@ -1,18 +1,26 @@
 
 
 body {
-    background-color: black;
-    color: #49FF0D;
+    background-color: #1A3CEE;
+    color: #ffffff;
     line-height: 1.5;
-    font-size: 24px;
+    font-family: 'Cagliostro';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Cagliostro';
+    font-size:12px;
+    font-weight: 400;
 }
 
 input {
-    background-color: rgb(8,13,32);
+    background-color: #FFFFFF;
     padding: 12px;/*some padding*/
     color: lightgreen;
     font-size: 24px;
-    border: 1px solid rgb(242, 74, 74);/*red border*/
+    font-family: 'Cagliostro';
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -21,13 +29,15 @@ input {
 }
 
 button {
-    background-color: lightgreen;
-    color: black;
+    background-color: #FFFFFF;
+    color: #131D32;
     padding: 12px 20px;
+    font-family: 'Dark Groteque';
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 button:hover {
